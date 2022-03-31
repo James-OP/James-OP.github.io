@@ -13,6 +13,7 @@ function randomLine(){
         var line=lines[randLineNum];
 
         document.getElementById("firstIdea").innerHTML = line;
+        console.log(line);
     })
     
 }
