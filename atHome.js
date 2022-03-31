@@ -1,16 +1,15 @@
-const fs = require("fs");
+
 
 //$('.go').on('click',function(){
 function randomLine(){
     var file = "atHome.txt";
-    
-    var randLineNum = Math.floor(Math.random() * lines.length);
+    const fs = require('fs');
     fs.readFile(file, "utf-8", function(err, data){
         if(err){
             throw err;
         }
         var lines = data.split("\n");
-        var line=lines[randLineNum];
+        var line=lines[Math.floor(Math.random() * lines.length)];
 
         document.getElementById("firstIdea").innerHTML = line;
         console.log(line);
