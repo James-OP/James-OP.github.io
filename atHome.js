@@ -1,6 +1,7 @@
 const fs = require("fs");
 
-$('.go').on('click',function(){
+//$('.go').on('click',function(){
+function randomLine(){
     var file = "atHome.txt";
     
     var randLineNum = Math.floor(Math.random() * lines.length);
@@ -14,4 +15,4 @@ $('.go').on('click',function(){
         document.getElementById("firstIdea").innerHTML = line;
     })
     
-})
+}
