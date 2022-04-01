@@ -1,6 +1,41 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>World First Aidan/James</title>
+        <link href="style.css" rel="stylesheet">
+        <script type="text/javascript" src="travel.js"></script>
+    </head>
     <body>
-        <h1>TESTING</h1>
+        <div id="topBar">
+            <div class="logo"></div>
+        </div>
+        <div id="intro">
+            <h1>worlds first</h1>
+        </div>
+        <!--
+        <div id="pageDescription">
+            <h1>Pick your topic and be the worlds first</h1>
+        </div>
+        -->
+        <div id="selectionWindow">
+            <h1 id="descriptionText">Choose your State</h1>
+            
+            <hr>
+
+            <select name="state" id="stateSelect">
+                <option value="">--Select Your State--</option>
+                <option value="1">Alabama</option>
+                <option value="2">Alaska</option>
+                <option value="3">Arizona</option>
+                <option value="4">Arkansas</option>
+                <option value="5">California</option>
+                <option value="6">Colorado</option>
+            
+            <button id="random" onclick="surpriseMe()">Surprise Me</button>
+                <!--
+            <button class="go" onclick="randomLine()">Pick Your First</button>
+                -->
+        </div>
+        
     </body>
 </html>
