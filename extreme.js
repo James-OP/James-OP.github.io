@@ -3,7 +3,7 @@ function randomLine(){
     var lines1 = ["Skydiving","White Water Rafting", "Surfing", "Mud Wrestling"];
     var line1=lines1[Math.floor(Math.random() * lines1.length)];
 
-    document.getElementById("firstIdea").innerHTML = "Go to " + line1;
+    document.getElementById("firstIdea").innerHTML = "Go " + line1;
     console.log(line1);
     
     var lines2 = ["reciting miranda rights", "waving your arms", "do 10 pushups", "read a book"];
