@@ -30,4 +30,8 @@ function randomLine(){
 
     document.getElementById("secondIdea").innerHTML = line2;
 
+    var lines3 = ["eating a spoon full of sugar", "calculating the area of the room", "balancing on one foot"];
+    var line3 = lines3[Math.floor(Math.random() * lines3.length)];
+
+    document.getElementById("thirdIdea").innerHTML = line3;
 }
