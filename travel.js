@@ -604,7 +604,7 @@ function randomLine(){
         document.getElementById("firstIdea").innerHTML = "Go to " + line1;
         console.log(line1);
     
-        var lines2 = ["Cross It"];
+        var lines2 = ["Cross It (Not a World First, But Still Worth It)"];
         var line2 = lines2[Math.floor(Math.random() * lines2.length)];
 
         document.getElementById("secondIdea").innerHTML = "and " + line2;
