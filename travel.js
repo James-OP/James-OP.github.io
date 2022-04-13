@@ -677,6 +677,125 @@ function randomLine(){
 
         document.getElementById("thirdIdea").innerHTML = "while " + line3;
     }
+    if(selection.value == "40"){
+        var lines1 = ["The South Carolina State Museum", "The Charleston Historic District", "Fort Sumter National Monument", "Huntington Beach State Park", "Brookgreen Gardens", "Caesars Head State Park", "Boon Hall Plantation and Gardens", "The Charleston City Market", "Congaree National Park", "The Angel Oak", "Hilton Head Island", "Myrtle Beach", "The Pearl Fryar Topiary Garden", "The Charleston Tea Garden", "Woods Bay State Park"];
+        var line1=lines1[Math.floor(Math.random() * lines1.length)];
+
+        document.getElementById("firstIdea").innerHTML = "Go to " + line1;
+        console.log(line1);
+    
+        var lines2 = ["take a selfie", "leave Aidan behind", "do 10 pushups", "read a book"];
+        var line2 = lines2[Math.floor(Math.random() * lines2.length)];
+
+        document.getElementById("secondIdea").innerHTML = "and " + line2;
+
+        var lines3 = ["eating a spoon full of sugar", "calculating the area of the room", "balancing on one foot"];
+        var line3 = lines3[Math.floor(Math.random() * lines3.length)];
+
+        document.getElementById("thirdIdea").innerHTML = "while " + line3;
+    }
+    if(selection.value == "41"){
+        var lines1 = ["Mount Rushmore", "Crazy Horse", "The National Music Museum", "The Petrified Wood Park & Museum", "Storybook Island", "Lewis And Clark Lake", "The Corn Palace", "Custer State Park", "Badlands National Park", "Historic Deadwood", "Spearfish Falls", "Good Earth State Park", "Mammoth Site", "Devil's Gulch"];
+        var line1=lines1[Math.floor(Math.random() * lines1.length)];
+
+        document.getElementById("firstIdea").innerHTML = "Go to " + line1;
+        console.log(line1);
+    
+        var lines2 = ["take a selfie", "leave Aidan behind", "do 10 pushups", "read a book"];
+        var line2 = lines2[Math.floor(Math.random() * lines2.length)];
+
+        document.getElementById("secondIdea").innerHTML = "and " + line2;
+
+        var lines3 = ["eating a spoon full of sugar", "calculating the area of the room", "balancing on one foot"];
+        var line3 = lines3[Math.floor(Math.random() * lines3.length)];
+
+        document.getElementById("thirdIdea").innerHTML = "while " + line3;
+    }
+    if(selection.value == "42"){
+        var lines1 = ["Great Smoky Mountains National Park", "The Parthenon", "The Tennessee Valley Railroad Museum", "The Titanic Museum", "Lookout Mountain", "The Country Music Hall of Fame", "Beale Street", "The Bell Witch Cave", "The Crystal Shrine Grotto", "Mud Island River Park", "The Lost Sea Cave", "Parrot Mountain and Gardens", "Ruby Falls", "Jack Daniels Distillery"];
+        var line1=lines1[Math.floor(Math.random() * lines1.length)];
+
+        document.getElementById("firstIdea").innerHTML = "Go to " + line1;
+        console.log(line1);
+    
+        var lines2 = ["take a selfie", "leave Aidan behind", "do 10 pushups", "read a book"];
+        var line2 = lines2[Math.floor(Math.random() * lines2.length)];
+
+        document.getElementById("secondIdea").innerHTML = "and " + line2;
+
+        var lines3 = ["eating a spoon full of sugar", "calculating the area of the room", "balancing on one foot"];
+        var line3 = lines3[Math.floor(Math.random() * lines3.length)];
+
+        document.getElementById("thirdIdea").innerHTML = "while " + line3;
+    }
+    if(selection.value == "43"){
+        var lines1 = ["Big Bend National Park", "The Alamo", "The San Antonio River Walk", "The Johnson Space Center", "The Texas State Capitol", "The Dallas Arboretum", "Guadalupe Mountains National Park", "The Fort Worth Stock Yards", "Padre Island", "Hamilton Pool", "Enchanted Rock State Natural Area", "Jacob's Well", "Palo Duro Canyon"];
+        var line1=lines1[Math.floor(Math.random() * lines1.length)];
+
+        document.getElementById("firstIdea").innerHTML = "Go to " + line1;
+        console.log(line1);
+    
+        var lines2 = ["take a selfie", "leave Aidan behind", "do 10 pushups", "read a book"];
+        var line2 = lines2[Math.floor(Math.random() * lines2.length)];
+
+        document.getElementById("secondIdea").innerHTML = "and " + line2;
+
+        var lines3 = ["eating a spoon full of sugar", "calculating the area of the room", "balancing on one foot"];
+        var line3 = lines3[Math.floor(Math.random() * lines3.length)];
+
+        document.getElementById("thirdIdea").innerHTML = "while " + line3;
+    }
+    if(selection.value == "44"){
+        var lines1 = ["Zion National Park", "Lake Powell", "Arches National Park", "Monument Valley", "Natural Bridges National Monument", "Canyonlands National Park", "Moab", "The Homestead Crater", "Bryce Canyon National Park", "Antelope Island", "The Great Salt Lake", "The Grand Staircase-Escalante", "Angels Landing", "Valley of the Gods", "Goblin Valley State Park"];
+        var line1=lines1[Math.floor(Math.random() * lines1.length)];
+
+        document.getElementById("firstIdea").innerHTML = "Go to " + line1;
+        console.log(line1);
+    
+        var lines2 = ["take a selfie", "leave Aidan behind", "do 10 pushups", "read a book"];
+        var line2 = lines2[Math.floor(Math.random() * lines2.length)];
+
+        document.getElementById("secondIdea").innerHTML = "and " + line2;
+
+        var lines3 = ["eating a spoon full of sugar", "calculating the area of the room", "balancing on one foot"];
+        var line3 = lines3[Math.floor(Math.random() * lines3.length)];
+
+        document.getElementById("thirdIdea").innerHTML = "while " + line3;
+    }
+    if(selection.value == "45"){
+        var lines1 = ["Lake Champlain", "Moss Glen Falls", "The Stowe Recreation Path", "The Church Street Marketplace", "The Alchemist", "The Rock of Ages Granite Quarry", "The Ben & Jerry's Flavor Graveyard", "The Bellows Falls Petroglyphs", "The Tallest Filing Cabinet on Earth", "Mount Mansfield", "The Vermontasaurus", "The Burlington Earth Clock", "The Robert Frost Interpretive Trail", "The Clarendon Gorge Bridge", "The Cold Hollow Sculpture Park"];
+        var line1=lines1[Math.floor(Math.random() * lines1.length)];
+
+        document.getElementById("firstIdea").innerHTML = "Go to " + line1;
+        console.log(line1);
+    
+        var lines2 = ["take a selfie", "leave Aidan behind", "do 10 pushups", "read a book"];
+        var line2 = lines2[Math.floor(Math.random() * lines2.length)];
+
+        document.getElementById("secondIdea").innerHTML = "and " + line2;
+
+        var lines3 = ["eating a spoon full of sugar", "calculating the area of the room", "balancing on one foot"];
+        var line3 = lines3[Math.floor(Math.random() * lines3.length)];
+
+        document.getElementById("thirdIdea").innerHTML = "while " + line3;
+    }
+    if(selection.value == "46"){
+        var lines1 = ["Virgina's Natural Tunal", "The Natural Bridge", "The Great Channels of Virginia", "The Abandoned Virginia Renaissance Faire", "Shenandoah National Park", "Virginia Beach", "Luray Caverns", "Washington D.C. National Mall", "Washington D.C. Smithsonian", "Yorktown", "Historic Jamestowne", "The Manassas National Battlefield", "Assateague Island", "Mount Vernon", "The Great Stalacpipe Organ"];
+        var line1=lines1[Math.floor(Math.random() * lines1.length)];
+
+        document.getElementById("firstIdea").innerHTML = "Go to " + line1;
+        console.log(line1);
+    
+        var lines2 = ["take a selfie", "leave Aidan behind", "do 10 pushups", "read a book"];
+        var line2 = lines2[Math.floor(Math.random() * lines2.length)];
+
+        document.getElementById("secondIdea").innerHTML = "and " + line2;
+
+        var lines3 = ["eating a spoon full of sugar", "calculating the area of the room", "balancing on one foot"];
+        var line3 = lines3[Math.floor(Math.random() * lines3.length)];
+
+        document.getElementById("thirdIdea").innerHTML = "while " + line3;
+    }
 }
 
 
